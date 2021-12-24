@@ -3,21 +3,11 @@
     "description": "Install Drupal 9 with Composer on Amezmo.",
     "type": "project",
     "license": "MIT",
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://packages.drupal.org/9"
-        },
-        {
-            "type": "path",
-            "url": "upstream-configuration"
-        }
-    ],
     "require": {
         "composer/installers": "^1.9",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-recommended": "^9.2",
-        "sdubois/amezmo-drupal-integrations": "*",
+        "sdubois/amezmo-drupal-integrations": "dev-main",
         "cweagans/composer-patches": "^1.7",
         "drush/drush": "^10"
     },
