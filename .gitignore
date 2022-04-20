@@ -3,7 +3,6 @@
 !/web/sites/*/services.yml
 /vendor
 /.env
-composer.lock
 /.editorconfig
 /.gitattributes
 /load.environment.php
