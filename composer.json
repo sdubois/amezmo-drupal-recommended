@@ -3,7 +3,7 @@
     "description": "Install Drupal 9 with Composer on Amezmo.",
     "type": "project",
     "license": "MIT",
-        "repositories": [
+    "repositories": [
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
